@@ -1,0 +1,61 @@
+/* layout styles */
+body {font-family: 'Ubuntu', Arial, Helvetica, sans-serif; font-weight:500; font-size: 16px; color: #333; background-color:#dedede; margin:0px; padding:0px;}
+header {background-color:#57002a; color:#FFFFFF; margin:0px; padding:0px; z-index:10; position:relative; width:100%;}
+nav{margin:0px; padding:0px; margin-left:auto; margin-right:auto; clear:both; position:relative; z index:1;}
+footer{background-color:#57002a; color:#FFFFFF; margin:0px; padding:10px;  }
+.Content{ background-color:#FFF; background-color: rgb(255, 255, 255);  z-index:1; position:relative; -webkit-box-shadow: 0px 0px 4px 0px rgba(50, 50, 50, 0.75); -moz-box-shadow: 0px 0px 4px 0px rgba(50, 50, 50, 0.75); box-shadow:  0px 0px 4px 0px rgba(50, 50, 50, 0.75);}
+.HeaderAdvertBar{width:100%; margin:0px; padding:0px; padding-top:10px; height:40px; font-size:1.250em; font-weight:700; font-family: 'Gochi Hand', cursive;}
+.HeaderAdvertBar h2{font-size:1.250em; font-weight:700; font-family: 'Gochi Hand', Arial, Helvetica, sans-serif; line-height:1em; padding:0px; margin:0px;}
+.Logo{display:block; z index:1; width:104px !important; height:104px !important; padding:1px;}
+.Content img{display: block; max-width: 100%; height: auto;} 
+/* Generic Clases */
+.firstrow{margin-top:20px;}
+.black{background-color:#000;}
+.internalrow{margin:0px; padding:15px !important; }
+.foot{background-color:#57002a; margin-top:15px;}
+/* Navigation */
+.nav a{color:#FFF; text-decoration:none; text-decoration:none !important; background-image:none;}
+.nav a:hover{color:#57002a; background-color:#ffff3c !important; background-image:url(images/nav-bur.jpg); background-repeat:repeat-x; background-position:bottom;}
+.nav,.nav li{margin:0px; padding:0px; list-style:none; font-size:1em; font-weight:bold; width:100%;} 
+.nav a{float:left; padding-left:15px; padding-right:15px; padding-top:10px; padding-bottom:10px; background-color:#57002a;}
+.NavBottomBar{clear:both; width:100%;}
+.current a{ background-image:url(images/point.png) !important; background-repeat:no-repeat !important; background-position:bottom !important; background-color:#57002a !important; color:#FFFFFF !important;}
+.current a:hover{color:#ffff3c !important; background-color:#57002a !important} 
+/* text */
+h1,h2,h3,h4,h5{font-family: 'Open Sans Condensed', Arial, Helvetica, sans-serif;}
+p{font-size:0.750em;}
+ul,li{margin:0px; padding:0px; list-style:none; font-size:0.750em;}
+ul li p{font-size:0.750em;}
+footer p{margin:0px; padding:0px; font-size:0.625em;}
+h1{font-size:1.250em; font-weight:bold;}
+h2{font-size:1.063em; font-weight:bold;}
+h3{font-size:1em; font-weight:bold;}
+h4{font-size:0.938em; font-weight:bold;}
+h5{font-size:0.875em; font-weight:bold;}
+h6{font-size:0.813em; font-weight:bold;}
+/* CSS3 Transitions */
+.nav a:hover{background-color:#ffff3c; -webkit-transition:background-color .50s,background-image .50s; -moz-transition:background-color .50s,background-image .50s; -ms-transition:color .50s,background-image .50s; -o-transition:background-color .50s,background-image .50s; transition: background-color .50s,background-image .50s;}
+.nav a{background-color:#57002a; -webkit-transition:background-color .30s,background-image .30s; -moz-transition:background-color .30s,background-image .30s; -ms-transition:color .30s,background-image .30s; -o-transition:background-color .30s,background-image .30s; transition: background-color .30s,background-image .30s;}
+/* social icons and box*/
+.GetSocial{font-size:0.875em; padding:0px; margin:0px; margin-bottom:5px; font-weight:bold;}
+.SocialIcons{margin:0px; padding:0px; float:right;}
+.Social {padding:0px; margin:0px; margin-right:8px;}
+.Twitter{display:block; width:21px; height:15px; background-image:url(images/twit.png); background-repeat:no-repeat;}
+.Facebook{display:block; width:9px; height:17px; background-image:url(images/facebook.png); background-repeat:no-repeat;}
+.Youtube{display:block; width:21px; height:15px; background-image:url(images/youtube.png); background-repeat:no-repeat;}
+.Tumblr{display:block; width:10px; height:17px; background-image:url(images/tumblr.png); background-repeat:no-repeat;}
+.Twitter:hover{background-image:url(images/twit-over.png);}
+.Facebook:hover{background-image:url(images/facebook-over.png);}
+.Youtube:hover{background-image:url(images/youtube-over.png);}
+.Tumblr:hover{background-image:url(images/tumblr-over.png);}
+/* media queries */
+@media (min-width: 768px) , (min-width: 992px) , (min-width: 1200px) {
+	.Logo{position:absolute; top:-30px; left:7px; }
+	.SocialIcons{position:absolute; margin:0px; padding:0px; right:4px; top:-10px;}
+}
+/* fix rows */
+.Content .col-md-12,.Content  .col-md-6,.Content  .col-md-4,.Content  .col-md-3,.Content  .col-md-2{}
+.Content .foot .col-md-12{}
+.row{}
+
+/* rounded boxes */

@@ -1,0 +1,19 @@
+/* Navigation */
+.nav a{color:#FFF; text-decoration:none; text-decoration:none !important; background-image:none;}
+.nav a:hover{color:#57002a; background-color:#ffff3c; background-image:url(images/nav-bur.jpg); background-repeat:repeat-x; background-position:bottom;}
+.nav,.nav li{margin:0px; padding:0px; list-style:none; font-size:1em; font-weight:bold; width:100%;} 
+.nav li{display: inline;}
+.nav a{ padding-left:15px; padding-right:15px; padding-top:10px; padding-bottom:10px; background-color:#57002a;}
+.NavBottomBar{clear:both; width:100%;}
+.current a{ background-image:url(images/point.png) !important; background-repeat:no-repeat !important; background-position:bottom !important; background-color:#57002a !important; color:#FFFFFF !important;}
+.current a:hover{color:#ffff3c !important;} 
+.HeaderAdvertBar {padding:0px; margin:0px; display:none;}
+.mobino, .SocialIcons{float:left!important;}
+.Content{ background-color:#FFF;}
+.container {width: 992px !important;}
+.Content .col-md-12,.Content  .col-md-6,.Content  .col-md-4,.Content  .col-md-3,.Content  .col-md-2{padding:0px; margin:0px;}
+.Content .foot .col-md-12{padding-left:0px !important; padding-right:0px !important;}
+.row {width:992px !important; padding-left:15px;}
+#Main{padding-left:15px; padding-right:15px;}
+.firstrow{margin-top:0px !important;}
+
