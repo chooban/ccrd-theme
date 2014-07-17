@@ -55,7 +55,7 @@
             </div>
             <nav class="row">
             	<div class="col-md-1 logosize">
-            		<a href="<?php get_theme_url(); ?>" tabindex="1"><img src="<?php get_theme_url(); ?>/images/logo.png" title="Capital City Roller Derby Logo" alt="Capital City Roller Derby Logo" width="104" height="103" class="Logo" ></a>
+            		<a href="<?php get_site_url(); ?>" tabindex="1"><img src="<?php get_theme_url(); ?>/images/logo.png" title="Capital City Roller Derby Logo" alt="Capital City Roller Derby Logo" width="104" height="103" class="Logo" ></a>
           		</div>
                 <div class="col-md-2 col-md-push-9">
                    <div class="SocialIcons">
