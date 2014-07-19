@@ -39,7 +39,7 @@
     <!--[if lt IE 8]>
     	<link href="<?php get_theme_url(); ?>/oldie.css" rel="stylesheet">
 	<![endif]-->
-    	
+    <link rel="shortcut icon" type="image/png" href="http://beta.capitalcityrollerderby.co.uk/data/uploads/ccrd.ico"/>	
     
 </head>
 <body id="<?php get_page_slug(); ?>">
@@ -47,17 +47,16 @@
 	<header>
     	<div class="container">
         	<div class="row">
-            	<div class="col-md-1"></div>
-            	<div class="col-md-10">
+            	<div class="col-sm-1 col-md-1"></div>
+            	<div class="col-sm-11 col-md-11">
                 	<div class="HeaderAdvertBar"><h2>We are Mighty Unicorns</h2></div>
              	</div>
-                <div class="col-md-1"></div>
             </div>
             <nav class="row">
-            	<div class="col-md-1 logosize">
-            		<a href="<?php get_theme_url(); ?>" tabindex="1"><img src="<?php get_theme_url(); ?>/images/logo.png" title="Capital City Roller Derby Logo" alt="Capital City Roller Derby Logo" width="104" height="103" class="Logo" ></a>
+            	<div class="col-sm-1 col-md-1 logosize">
+            		<a href="<?php get_site_url(); ?>" tabindex="1"><img src="<?php get_theme_url(); ?>/images/logo.png" title="Capital City Roller Derby" alt="Capital City Roller Derby" class="Logo" ></a>
           		</div>
-                <div class="col-md-2 col-md-push-9">
+                <div class="col-sm-2 col-md-2 col-sm-push-9 col-md-push-9">
                    <div class="SocialIcons">
                       <div class="GetSocial">Get Social</div>
                         	<a href="" class="Social Youtube pull-right mobino" title="Capital City Youtube" tabindex="2"></a>
@@ -67,7 +66,7 @@
                  	</div><!-- /social -->
                     <div class="clearfix"><!-- /ie --></div>
                 </div>
-                <div class="col-md-9 col-md-pull-2">
+                <div class="col-sm-9 col-md-9 col-sm-pull-2 col-md-pull-2">
                 	<ul class="nav">
                     	<?php get_navigation(return_page_slug()); ?>
            			</ul>
@@ -78,12 +77,17 @@
     </header>
 	<div class="container Content" id="Main">
         <div class="row firstrow">
-            <div class="col-md-9">
+            <div class="col-sm-9 col-md-9">
+				<article>
+					<header>
+							<h1><?php get_page_title(); ?></h1>
+					</header>
 				<?php get_page_content(); ?>
-            </div><!-- /col-md-12 -->
-            <div class="col-md-3">
-				<?php get_component('side_bar');?>
-            </div><!-- /col-md-12 -->
+				</article>
+            </div><!-- /col-md-9 -->
+            <div class="col-sm-3 col-md-3">
+				<?php get_component('newssidebar'); ?>
+            </div><!-- /col-md-3 -->
          </div><!-- /row -->
          <div class="row foot">
             <div class="col-md-12">
