@@ -5,10 +5,11 @@ nav{margin:0px; padding:0px; margin-left:auto; margin-right:auto; clear:both; po
 footer{background-color:#57002a; color:#FFFFFF; margin:0px; padding:10px;  }
 .Content{ background-color:#FFF; background-color: rgb(255, 255, 255);  z-index:1; position:relative; -webkit-box-shadow: 0px 0px 4px 0px rgba(50, 50, 50, 0.75); -moz-box-shadow: 0px 0px 4px 0px rgba(50, 50, 50, 0.75); box-shadow:  0px 0px 4px 0px rgba(50, 50, 50, 0.75);}
 .HeaderAdvertBar{width:100%; margin:0px; padding:0px; padding-top:10px; height:40px; font-size:1.250em; font-weight:700; font-family: 'Gochi Hand', cursive;}
-.HeaderAdvertBar h2{font-size:1.250em; font-weight:700; font-family: 'Gochi Hand', Arial, Helvetica, sans-serif; line-height:1em; padding:0px; margin:0px;}
+.HeaderAdvertBar h2{font-size:1.250em; font-weight:700; font-family: 'Shadows Into Light Two', cursive, 'Gochi Hand',  Arial, Helvetica, sans-serif; line-height:1em; padding:0px; margin:0px;}
 .Logo{display:block; z index:1;  padding:1px; width:81px !important; height:81px !important;}
 .Content img{display: block; max-width: 100%; height: auto;} 
 #HomepageSider {margin:0px; padding:0px; height:430px; width:100%;}
+#page {margin-bottom:15px;}
 /* Generic Clases */
 .firstrow{margin-top:20px;}
 .black{background-color:#000;}
@@ -67,16 +68,22 @@ h6{font-size:0.813em; font-weight:bold;}
 .Content .foot .col-md-12{}
 .row{}
 
-/* rounded boxes */
+/* page headers and image boxes */
+.PageTitleWrapper {margin:0px; padding:0px; margin-top:10px; margin-bottom:15px;}
+.PageTitleWrapper header{background-color:#57002a; color:#ffff3c; border-radius: 0px 0px 5px 5px; -moz-border-radius: 0px 0px 5px 5px; -webkit-border-radius: 0px 0px 5px 5px;}
+.PageTitleWrapper header h1{margin:0px; padding:10px;}
+.ImageBox{margin:0px; padding:0px;}
 
 /* news plug in */
-.nm_post_title a{ color:#57002a; font-size:1.65em; margin-bottom:0px !important; padding-bottom:0px !important; padding-top: 0px !important; margin-top:0px !important;}
+.nm_post_title a{ color:#57002a; font-size:1.35em; margin-bottom:0px !important; padding-bottom:0px !important; padding-top: 0px !important; margin-top:0px !important;}
 .nm_post_title {margin-bottom:0px !important; padding-bottom:0px !important; padding-top: 0px !important; margin-top:0px !important;}
 .nm_post_date {margin:0px !important; padding:0px !important; font-weight:bold;}
 .nm_recent li a, .nm_archives li a{ font-size:1.6em; color:#57002a; text-decoration:none; font-weight:bold;}
 .nm_recent li a:hover, .nm_archives li a:hover{text-decoration:underline;}
 .nm_recent, .nm_archives {margin:0px; padding:0px; margin-top:6px!important; margin-bottom:15px !important;}
 .submit {margin-top:10px;}
+#search .text {width:100%;}
+
 
 /* global css */
 p a{color:#57002a !important; font-weight:bold;}

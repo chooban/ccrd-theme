@@ -26,6 +26,7 @@
     <!-- fonts -->
     <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,500,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Gochi+Hand' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light+Two' rel='stylesheet' type='text/css'>
     <!-- JS & jQuery -->
     <script type="text/javascript" src="<?php get_theme_url(); ?>/js/modernizr-1.7.min.js"></script>
     <script src="http://code.jquery.com/jquery.js"></script>
@@ -79,9 +80,12 @@
         <div class="row firstrow">
             <div class="col-sm-9 col-md-9">
 				<article>
-					<header>
-							<h1><?php get_page_title(); ?></h1>
-					</header>
+					<div class="PageTitleWrapper">
+						<div class="ImageBox"><img alt="Capital City News" src="/data/uploads/images/pageheaders/_ese9476.jpg" title="Capital City News" /></div>
+						<header>
+							<h1>Capital City News</h1>
+						</header>
+					</div><!-- / PageTitleWrapper -->
 				<?php get_page_content(); ?>
 				</article>
             </div><!-- /col-md-9 -->
